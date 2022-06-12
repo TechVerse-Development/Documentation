@@ -2,12 +2,8 @@
 sidebar_position: 1
 ---
 
-# Discorder
+# TechVerse
 
 ## Welcome
 
-Welcome to the official documentation for Discorder! Discorder is a secure Discord logging API.
-
-## Prerequisites
-
-There are no special prerequisites to get started with Discorder. It supports all programming languages, as long as they support HTTP requests!
+Welcome to the TechVerse documentation, a place where you can find any information related to our projects.
