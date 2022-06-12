@@ -19,7 +19,7 @@ function HomepageHeader() {
 						className="button button--secondary button--lg"
 						to="/docs/intro"
 					>
-						Discorder Documentation - 5min ⏱️
+						TechVerse Documentation - 5min ⏱️
 					</Link>
 				</div>
 			</div>
@@ -29,7 +29,7 @@ function HomepageHeader() {
 
 export default function Home() {
 	return (
-		<Layout description="Discorder - A secure Discord logging API">
+		<Layout description="TechVerse Development is an organisation dedicated to developing new, useful & exciting projects whilst also maintaining a secure workspace.">
 			<HomepageHeader />
 			<main>
 				<HomepageFeatures />
