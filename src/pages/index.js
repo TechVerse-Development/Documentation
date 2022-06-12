@@ -19,7 +19,7 @@ function HomepageHeader() {
 						className="button button--secondary button--lg"
 						to="/docs/intro"
 					>
-						TechVerse Documentation - 5min ⏱️
+						Jump into the Documentation!
 					</Link>
 				</div>
 			</div>
@@ -29,7 +29,7 @@ function HomepageHeader() {
 
 export default function Home() {
 	return (
-		<Layout description="TechVerse Development is an organisation dedicated to developing new, useful & exciting projects whilst also maintaining a secure workspace.">
+		<Layout description="TechVerse Development is an organisation dedicated to developing new, useful software.">
 			<HomepageHeader />
 			<main>
 				<HomepageFeatures />
