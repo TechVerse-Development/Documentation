@@ -6,8 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "Discorder",
-	tagline: "A secure Discord logging API.",
+	title: "TechVerse",
+	tagline:
+		"TechVerse Development is an organisation dedicated to developing new, useful & exciting projects whilst also maintaining a secure workspace.",
 	url: "https://techversedev.xyz",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
