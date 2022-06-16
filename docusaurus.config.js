@@ -112,7 +112,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} TechVerse. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} TechVerse.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
