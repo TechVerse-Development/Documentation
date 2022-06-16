@@ -9,7 +9,7 @@ const config = {
 	title: "TechVerse",
 	tagline:
 		"TechVerse Development is an organisation dedicated to developing new, useful & exciting projects whilst also maintaining a secure workspace.",
-	url: "https://techversedev.xyz",
+	url: "https://www.techversedev.xyz",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -18,7 +18,7 @@ const config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "TechVerse-Development", // Usually your GitHub org/user name.
-	projectName: "Documentation", // Usually your repo name.
+	projectName: "", // Usually your repo name.
 
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
@@ -71,7 +71,7 @@ const config = {
 						label: "API",
 					},
 					{
-						href: "https://github.com/TechVerse-Development/Documentation",
+						href: "https://github.com/TechVerse-Development",
 						label: "GitHub",
 						position: "right",
 					},
@@ -103,11 +103,11 @@ const config = {
 						],
 					},
 					{
-						title: "More",
+							title: "Other",
 						items: [
 							{
 								label: "GitHub",
-								href: "https://github.com/TechVerse-Development/Documentation",
+								href: "https://github.com/TechVerse-Development",
 							},
 						],
 					},
