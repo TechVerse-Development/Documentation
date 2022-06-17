@@ -68,7 +68,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "API",
+            label: "Introduction",
           },
           {
             href: "https://github.com/TechVerse-Development",
@@ -84,7 +84,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "API",
+                label: "Introduction",
                 to: "/docs/intro",
               },
             ],
