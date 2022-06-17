@@ -8,7 +8,7 @@ sidebar_position: 1
 
 - Type: `string`
 
-`https://example.com/`
+`https://api.discorder.xyz/`
 
 ## Channel
 
@@ -16,9 +16,9 @@ sidebar_position: 1
 
 ```ts
 type Channel = {
-	guild: Guild; // The guild the channel is in
-	id: string; // The ID of the channel
-	name: string; // The name of the channel
+  guild: Guild; // The guild the channel is in
+  id: string; // The ID of the channel
+  name: string; // The name of the channel
 };
 ```
 
@@ -30,15 +30,15 @@ type Channel = {
 
 ```ts
 type Embed = {
-	author?: EmbedAuthor; // Author information
-	color?: number; // Color code of the embed
-	description?: string; // Description of embed
-	fields?: EmbedField[]; // Fields information
-	footer?: EmbedFooter; // Footer information
-	image?: EmbedImage; // Image information
-	timestamp?: number; // Timestamp of embed content
-	title?: string; // Title of embed
-	url?: string; // Url of embed
+  author?: EmbedAuthor; // Author information
+  color?: number; // Color code of the embed
+  description?: string; // Description of embed
+  fields?: EmbedField[]; // Fields information
+  footer?: EmbedFooter; // Footer information
+  image?: EmbedImage; // Image information
+  timestamp?: number; // Timestamp of embed content
+  title?: string; // Title of embed
+  url?: string; // Url of embed
 };
 ```
 
@@ -53,9 +53,9 @@ type Embed = {
 
 ```ts
 type EmbedAuthor = {
-	iconUrl?: string; // Url of author icon
-	name: string; // Name of author
-	url?: string; // Url of author
+  iconUrl?: string; // Url of author icon
+  name: string; // Name of author
+  url?: string; // Url of author
 };
 ```
 
@@ -65,9 +65,9 @@ type EmbedAuthor = {
 
 ```ts
 type EmbedField = {
-	inline?: boolean; // Whether or not this field should display inline
-	name: string; // Name of the field
-	value: string; // Value of the field
+  inline?: boolean; // Whether or not this field should display inline
+  name: string; // Name of the field
+  value: string; // Value of the field
 };
 ```
 
@@ -77,8 +77,8 @@ type EmbedField = {
 
 ```ts
 type EmbedFooter = {
-	text: string; // Footer text
-	iconUrl?: string; // Url of footer icon
+  text: string; // Footer text
+  iconUrl?: string; // Url of footer icon
 };
 ```
 
@@ -88,7 +88,7 @@ type EmbedFooter = {
 
 ```ts
 type EmbedImage = {
-	url: string; // Source url of image
+  url: string; // Source url of image
 };
 ```
 
@@ -98,9 +98,9 @@ type EmbedImage = {
 
 ```ts
 type Guild = {
-	icon: string | null; // Guild icon's hash
-	id: string; // The guild's ID
-	name: string; // The guild's name
+  icon: string | null; // Guild icon's hash
+  id: string; // The guild's ID
+  name: string; // The guild's name
 };
 ```
 
@@ -110,8 +110,8 @@ type Guild = {
 
 ```ts
 type Member = {
-	avatar?: string | null; // The member's guild avatar hash
-	nick?: string | null; // This user's guild nickname
+  avatar?: string | null; // The member's guild avatar hash
+  nick?: string | null; // This user's guild nickname
 };
 ```
 
@@ -121,21 +121,21 @@ type Member = {
 
 ```ts
 type Message = {
-	attachments?: MessageAttachment[]; // Any attached files to the message
-	author: User; // The author of this message
-	content?: string; // The contents of the message
-	editedTimestamp: number | null; // When this message was edited (or null if never)
-	embeds?: Embed[]; // Any embedded content
-	id?: string; // The ID of the message
-	interaction?: MessageInteraction; // If the message is a response to an interaction, the interaction it responds to
-	member?: Member; // The member properties for this message's author
-	mentionChannels?: Channel[]; // The channels specifically mentioned in this message
-	mentionRoles?: Role[]; // The roles specifically mentioned in this message
-	mentions?: User[]; // The users specifically mentioned in the message
-	messageReference?: MessageReference; // The data showing the source of a crosspost, channel follow add, pin, or reply message
-	thread?: ThreadChannel; // The thread that was started from this message, includes thread member object
-	timestamp: number; // An ISO8601 timestamp representing when this message was sent
-	type: number; // The type of the message
+  attachments?: MessageAttachment[]; // Any attached files to the message
+  author: User; // The author of this message
+  content?: string; // The contents of the message
+  editedTimestamp: number | null; // When this message was edited (or null if never)
+  embeds?: Embed[]; // Any embedded content
+  id?: string; // The ID of the message
+  interaction?: MessageInteraction; // If the message is a response to an interaction, the interaction it responds to
+  member?: Member; // The member properties for this message's author
+  mentionChannels?: Channel[]; // The channels specifically mentioned in this message
+  mentionRoles?: Role[]; // The roles specifically mentioned in this message
+  mentions?: User[]; // The users specifically mentioned in the message
+  messageReference?: MessageReference; // The data showing the source of a crosspost, channel follow add, pin, or reply message
+  thread?: ThreadChannel; // The thread that was started from this message, includes thread member object
+  timestamp: number; // An ISO8601 timestamp representing when this message was sent
+  type: number; // The type of the message
 };
 ```
 
@@ -155,8 +155,8 @@ type Message = {
 
 ```ts
 type MessageAttachment = {
-	contentType?: string; // The attachment's media type
-	url: string; // The source URL of the file
+  contentType?: string; // The attachment's media type
+  url: string; // The source URL of the file
 };
 ```
 
@@ -166,9 +166,9 @@ type MessageAttachment = {
 
 ```ts
 type MessageInteraction = {
-	member?: Member;
-	name: string;
-	user: User;
+  member?: Member;
+  name: string;
+  user: User;
 };
 ```
 
@@ -181,7 +181,7 @@ type MessageInteraction = {
 
 ```ts
 type MessageReference = {
-	messageId?: string;
+  messageId?: string;
 };
 ```
 
@@ -191,8 +191,8 @@ type MessageReference = {
 
 ```ts
 type Role = {
-	id: string; // Role id
-	name: string; // Role name
+  id: string; // Role id
+  name: string; // Role name
 };
 ```
 
@@ -202,7 +202,7 @@ type Role = {
 
 ```ts
 type ThreadChannel = {
-	name: string; // The name of the channel
+  name: string; // The name of the channel
 };
 ```
 
@@ -212,12 +212,12 @@ type ThreadChannel = {
 
 ```ts
 type User = {
-	accentColor?: number | null; // The user's banner color encoded as an integer representation of hexadecimal color code
-	avatar: string | null; // The user's avatar hash
-	banner?: string | null; // The user's banner hash
-	bot?: boolean; // Whether the user belongs to an OAuth2 application
-	discriminator: string; // The user's 4-digit discord-tag
-	id: string; // The user's id
-	username: string; // The user's username, not unique across the platform
+  accentColor?: number | null; // The user's banner color encoded as an integer representation of hexadecimal color code
+  avatar: string | null; // The user's avatar hash
+  banner?: string | null; // The user's banner hash
+  bot?: boolean; // Whether the user belongs to an OAuth2 application
+  discriminator: string; // The user's 4-digit discord-tag
+  id: string; // The user's id
+  username: string; // The user's username, not unique across the platform
 };
 ```
