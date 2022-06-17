@@ -65,12 +65,6 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Introduction",
-          },
-          {
             href: "https://github.com/TechVerse-Development",
             label: "GitHub",
             position: "right",
