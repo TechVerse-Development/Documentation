@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "TechVerse",
 	tagline:
-		"TechVerse Development is an organisation dedicated to developing new, useful & exciting projects whilst also maintaining a secure workspace.",
+		"TechVerse Development is an organisation dedicated to developing new, useful software.",
 	url: "https://www.techversedev.xyz",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
